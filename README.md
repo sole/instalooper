@@ -8,7 +8,7 @@
 
 ## Running this locally
 
-If you want to run this to modify and play with the code, you'll need to run a local server that can do https connections. Here's a good guide on how to do that.
+If you want to run this to modify and play with the code, you'll need to run a local server that can do https connections. [Here's a good guide on how to do that](https://certsimple.com/blog/localhost-ssl-fix).
 
 Assuming you followed that guide, you just need to start the server on the same directory as the code you cloned:
 
