@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+	<title>instalooper</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<script src="libs/MaximiseSampleInPlace.js"></script>
+	<script src="libs/RenderWave.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<header>
+		<h1>instalooper</h1>
+	</header>
+	<main>
+		<canvas width="800" height="300"></canvas>
+	</main>
+	<footer>
+		<p>A technical demo by <a href="https://soledadpenades.com/">sole</a> for the <a href="https://github.com/notthetup/webaudiohackday-2016/">Web Audio Hackday @ DevFestAsia (Singapore)</a></p>
+		<p>It demoes recording a short clip of audio using <a href="https://w3c.github.io/mediacapture-record/MediaRecorder.html">MediaRecorder</a>, and decoding the blob and loading it into <a href="https://webaudio.github.io/web-audio-api/">Web Audio</a> as a Buffer, to be used as a BufferSource.</p>
+		<p>Right now it mostly works in <a href="http://nightly.mozilla.org/">Firefox Nightly</a> (except when it intermittently stops recording), and it's totally broken in Chrome Canary (it <a href="https://twitter.com/supersole/status/802696553131438081">crashes the browser</a>).</p>
+	</footer>
+</body>
+
